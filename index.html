@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Уютные лежанки и одежда для собак ручной работы.">
+  <title>PAWS — вещи с заботой</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#top" aria-label="PAWS — на главную">paws<span>.</span></a>
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#catalog">Каталог</a>
+      <a href="#about">О бренде</a>
+      <a href="#care">Наш подход</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="header-link" href="#catalog">Выбрать изделие <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="dot"></span> НЕБОЛЬШАЯ МАСТЕРСКАЯ · БОЛЬШАЯ ЗАБОТА</p>
+        <h1>Место, где<br>хочется <em>остаться.</em></h1>
+        <p class="hero-text">Лежанки и одежда для собак, созданные вручную — с вниманием к деталям и характеру каждого хвостика.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#catalog">Смотреть изделия <span>↗</span></a>
+          <a class="text-link" href="#about">Наша история <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> Сделано вручную · С любовью к деталям</div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="hero-photo">
+          <div class="photo-caption"><span>01 / 03</span><span>HOME, BUT BETTER</span></div>
+          <div class="sun"></div>
+          <div class="abstract-bed"><div class="bed-cushion"></div><div class="bed-front"></div></div>
+          <div class="hero-sticker">soft<br>days <span>✳</span></div>
+          <p class="photo-placeholder">ЗДЕСЬ БУДЕТ ТВОЯ ФОТОГРАФИЯ</p>
+        </div>
+      </div>
+      <div class="hero-index">01 — HANDMADE FOR PETS</div>
+    </section>
+
+    <section class="ticker" aria-label="Особенности"><div>СДЕЛАНО ВРУЧНУЮ <span>✳</span> ДЛЯ УЮТНЫХ ДОМОВ <span>✳</span> С ЗАБОТОЙ О КАЖДОЙ ДЕТАЛИ <span>✳</span> СДЕЛАНО ВРУЧНУЮ <span>✳</span></div></section>
+
+    <section class="section catalog" id="catalog">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">01 — КОЛЛЕКЦИЯ</p><h2>Маленькие вещи.<br><em>Большой комфорт.</em></h2></div>
+        <p class="section-intro">Продуманные формы, приятные материалы и изделия, которые становятся частью дома.</p>
+      </div>
+      <div class="filters reveal" role="group" aria-label="Фильтр товаров">
+        <button class="filter active" data-filter="all">Всё</button>
+        <button class="filter" data-filter="beds">Лежанки</button>
+        <button class="filter" data-filter="clothes">Одежда</button>
+      </div>
+      <div class="products">
+        <article class="product-card reveal" data-category="beds">
+          <a class="product-image product-image-one" href="#contacts" aria-label="Заказать лежанку Облако">
+            <span class="product-tag">BESTSELLER</span><span class="image-word">cloud<br>comfort</span><span class="image-shape shape-bed"></span>
+          </a>
+          <div class="product-info"><div><h3>Лежанка «Облако»</h3><p>Мягкая · Съёмный чехол</p></div><a href="#contacts" aria-label="Узнать о лежанке Облако">↗</a></div>
+        </article>
+        <article class="product-card reveal" data-category="beds">
+          <a class="product-image product-image-two" href="#contacts" aria-label="Заказать лежанку Форма">
+            <span class="product-tag">HANDMADE</span><span class="image-word">slow<br>living</span><span class="image-shape shape-bed shape-bed-two"></span>
+          </a>
+          <div class="product-info"><div><h3>Лежанка «Форма»</h3><p>Плотная · На каждый день</p></div><a href="#contacts" aria-label="Узнать о лежанке Форма">↗</a></div>
+        </article>
+        <article class="product-card reveal" data-category="clothes">
+          <a class="product-image product-image-three" href="#contacts" aria-label="Заказать свитер">
+            <span class="product-tag">NEW</span><span class="image-word">warm<br>walks</span><span class="image-shape shape-coat"></span>
+          </a>
+          <div class="product-info"><div><h3>Свитер «Тёплый день»</h3><p>Мягкий трикотаж · На прогулку</p></div><a href="#contacts" aria-label="Узнать о свитере">↗</a></div>
+        </article>
+      </div>
+      <p class="catalog-note">Это демонстрационные карточки — позже заменим названия, описания, фотографии и добавим реальные цены.</p>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-visual reveal"><div class="about-circle">MADE<br>WITH<br><i>care</i></div><span class="about-caption">НЕ МАССОВОЕ ПРОИЗВОДСТВО</span></div>
+      <div class="about-copy reveal"><p class="eyebrow">02 — О НАС</p><h2>Не просто вещь.<br><em>Забота в деталях.</em></h2><p>Мы верим, что у каждого питомца должно быть своё любимое место. Поэтому создаём лежанки и одежду небольшими партиями, внимательно относясь к материалам, посадке и качеству исполнения.</p><a class="text-link" href="#contacts">Познакомиться ближе <span>↗</span></a></div>
+    </section>
+
+    <section class="care section" id="care">
+      <p class="eyebrow">03 — НАШ ПОДХОД</p>
+      <div class="care-grid">
+        <div class="care-item reveal"><span>01</span><h3>Ручная работа</h3><p>Внимание к каждому шву и каждой детали.</p></div>
+        <div class="care-item reveal"><span>02</span><h3>Продуманный комфорт</h3><p>Формы и материалы для ежедневного уюта.</p></div>
+        <div class="care-item reveal"><span>03</span><h3>Свой характер</h3><p>Изделия, которые гармонично живут в вашем доме.</p></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacts">
+      <div class="contact-copy reveal"><p class="eyebrow">04 — СВЯЗАТЬСЯ</p><h2>Есть вопрос?<br><em>Мы рядом.</em></h2><p>Расскажем о размерах, материалах и поможем подобрать изделие.</p></div>
+      <div class="contact-action reveal"><a class="button button-light" href="https://t.me/your_username" target="_blank" rel="noopener">Написать нам в Telegram <span>↗</span></a><p>ЗАМЕНИ `your_username` НА СВОЙ TELEGRAM-АДРЕС</p></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="logo logo-footer" href="#top">paws<span>.</span></a><p>Маленькая мастерская вещей для больших друзей.</p><span>© 2026 · HANDMADE WITH CARE</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
